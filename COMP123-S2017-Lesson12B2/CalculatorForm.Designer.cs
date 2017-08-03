@@ -35,8 +35,8 @@
             this.DevideButton = new System.Windows.Forms.Button();
             this.SevenButton = new System.Windows.Forms.Button();
             this.EightButton = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.MultiplyButton = new System.Windows.Forms.Button();
+            this.NineButton = new System.Windows.Forms.Button();
+            this.TimesButton = new System.Windows.Forms.Button();
             this.FourButton = new System.Windows.Forms.Button();
             this.FiveButton = new System.Windows.Forms.Button();
             this.SixButton = new System.Windows.Forms.Button();
@@ -71,8 +71,8 @@
             this.ButtonTableLayoutPanel.Controls.Add(this.SixButton, 2, 2);
             this.ButtonTableLayoutPanel.Controls.Add(this.FiveButton, 1, 2);
             this.ButtonTableLayoutPanel.Controls.Add(this.FourButton, 0, 2);
-            this.ButtonTableLayoutPanel.Controls.Add(this.MultiplyButton, 3, 1);
-            this.ButtonTableLayoutPanel.Controls.Add(this.button7, 2, 1);
+            this.ButtonTableLayoutPanel.Controls.Add(this.TimesButton, 3, 1);
+            this.ButtonTableLayoutPanel.Controls.Add(this.NineButton, 2, 1);
             this.ButtonTableLayoutPanel.Controls.Add(this.EightButton, 1, 1);
             this.ButtonTableLayoutPanel.Controls.Add(this.SevenButton, 0, 1);
             this.ButtonTableLayoutPanel.Controls.Add(this.DevideButton, 3, 0);
@@ -97,11 +97,11 @@
             this.ResultTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ResultTextBox.Enabled = false;
             this.ResultTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ResultTextBox.Location = new System.Drawing.Point(4, 88);
+            this.ResultTextBox.Location = new System.Drawing.Point(4, 65);
             this.ResultTextBox.Multiline = true;
             this.ResultTextBox.Name = "ResultTextBox";
             this.ResultTextBox.ReadOnly = true;
-            this.ResultTextBox.Size = new System.Drawing.Size(290, 44);
+            this.ResultTextBox.Size = new System.Drawing.Size(290, 67);
             this.ResultTextBox.TabIndex = 1;
             // 
             // ClearButton
@@ -154,24 +154,24 @@
             this.EightButton.Text = "8";
             this.EightButton.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // NineButton
             // 
-            this.button7.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.button7.Location = new System.Drawing.Point(151, 62);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(68, 53);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "9";
-            this.button7.UseVisualStyleBackColor = false;
+            this.NineButton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.NineButton.Location = new System.Drawing.Point(151, 62);
+            this.NineButton.Name = "NineButton";
+            this.NineButton.Size = new System.Drawing.Size(68, 53);
+            this.NineButton.TabIndex = 6;
+            this.NineButton.Text = "9";
+            this.NineButton.UseVisualStyleBackColor = false;
             // 
-            // MultiplyButton
+            // TimesButton
             // 
-            this.MultiplyButton.Location = new System.Drawing.Point(225, 62);
-            this.MultiplyButton.Name = "MultiplyButton";
-            this.MultiplyButton.Size = new System.Drawing.Size(68, 53);
-            this.MultiplyButton.TabIndex = 7;
-            this.MultiplyButton.Text = "X";
-            this.MultiplyButton.UseVisualStyleBackColor = true;
+            this.TimesButton.Location = new System.Drawing.Point(225, 62);
+            this.TimesButton.Name = "TimesButton";
+            this.TimesButton.Size = new System.Drawing.Size(68, 53);
+            this.TimesButton.TabIndex = 7;
+            this.TimesButton.Text = "X";
+            this.TimesButton.UseVisualStyleBackColor = true;
             // 
             // FourButton
             // 
@@ -323,8 +323,8 @@
         private System.Windows.Forms.Button SixButton;
         private System.Windows.Forms.Button FiveButton;
         private System.Windows.Forms.Button FourButton;
-        private System.Windows.Forms.Button MultiplyButton;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button TimesButton;
+        private System.Windows.Forms.Button NineButton;
         private System.Windows.Forms.Button EightButton;
         private System.Windows.Forms.Button SevenButton;
         private System.Windows.Forms.Button DevideButton;
