@@ -16,5 +16,10 @@ namespace COMP123_S2017_Lesson12B2
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
