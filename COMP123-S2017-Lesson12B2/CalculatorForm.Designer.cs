@@ -1,6 +1,6 @@
 ﻿namespace COMP123_S2017_Lesson12B2
 {
-    partial class Form1
+    partial class CalculatorForm
     {
         /// <summary>
         /// Required designer variable.

@@ -6,6 +6,11 @@ using System.Windows.Forms;
 
 namespace COMP123_S2017_Lesson12B2
 {
+    /*
+     * Name: Zilang Liang
+     * Date: August 3,2017
+     * */
+
     static class Program
     {
         /// <summary>
@@ -16,7 +21,7 @@ namespace COMP123_S2017_Lesson12B2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new CalculatorForm());
         }
     }
 }
