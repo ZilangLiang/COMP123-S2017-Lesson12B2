@@ -79,8 +79,14 @@ namespace COMP123_S2017_Lesson12B2
             {
                 this.IsDecimalClicked = true;
             }
-
-            ResultTextBox.Text += buttonClicked.Text;
+            if(ResultTextBox.Text == "0")
+            {
+                ResultTextBox.Text = buttonClicked.Text;
+            }
+            else
+            {
+                ResultTextBox.Text = buttonClicked.Text;
+            }
             
 
             //Debug.WriteLine("Calculator Button Click");
@@ -109,7 +115,7 @@ namespace COMP123_S2017_Lesson12B2
         private void _clear()
         {
             this.IsDecimalClicked = false;
-            this.ResultTextBox.Clear();
+            this.ResultTextBox.Text = "0";
         }
 
         /// <summary>
