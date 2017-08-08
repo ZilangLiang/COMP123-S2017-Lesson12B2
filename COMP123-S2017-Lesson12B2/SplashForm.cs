@@ -17,6 +17,15 @@ namespace COMP123_S2017_Lesson12B2
 {
     public partial class SplashForm : Form
     {
+
+        //PROPERTIES
+        public CalculatorForm CalculatorForm {
+            get
+            {
+                return Program.calculatorForm;
+            }
+
+        }
         public SplashForm()
         {
             InitializeComponent();
@@ -29,8 +38,8 @@ namespace COMP123_S2017_Lesson12B2
         /// <param name="e"></param>
         private void timer1_Tick(object sender, EventArgs e)
         {
-            CalculatorForm calculatorForm = new CalculatorForm();
-            calculatorForm.Show();
+
+            this.CalculatorForm.Show();
             this.Hide();
             SplashFormTimer.Enabled = false;
         }

@@ -12,16 +12,24 @@ namespace COMP123_S2017_Lesson12B2
      * changed class to start Splash Form 
      */
 
-    static class Program
+    public static class Program
     {
+        //FORM INSTANTIATION
+        public static CalculatorForm calculatorForm;
+
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main()
+        public static void Main()
         {
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            calculatorForm = new CalculatorForm();//instantiates object
+
             Application.Run(new SplashForm());
         }
     }
