@@ -9,7 +9,8 @@ namespace COMP123_S2017_Lesson12B2
     /*
      * Name: Zilang Liang
      * Date: August 3,2017
-     * */
+     * changed class to start Splash Form 
+     */
 
     static class Program
     {
@@ -21,7 +22,7 @@ namespace COMP123_S2017_Lesson12B2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CalculatorForm());
+            Application.Run(new SplashForm());
         }
     }
 }
